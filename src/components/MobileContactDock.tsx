@@ -17,9 +17,9 @@ export function MobileContactDock() {
         </a>
         <a
           href={siteConfig.phoneHref}
-          className="flex items-center justify-center gap-2 rounded-full bg-[#1a1717] px-3 py-3 text-[11px] font-semibold text-white"
+          className="flex items-center justify-center gap-2 rounded-full border border-[#e8d7c5] bg-white px-3 py-3 text-[11px] font-semibold text-[#1a1717] shadow-sm"
         >
-          <Phone size={15} />
+          <Phone size={15} className="text-[#1a1717]" />
           Call
         </a>
         <a
